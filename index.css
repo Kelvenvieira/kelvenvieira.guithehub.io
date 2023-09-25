@@ -1,0 +1,313 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.dedo1 {
+  position: absolute;
+  font-size: 55px;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2.dedo2 {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(0, 0, 0);
+  font-size: 55px;
+  color: white;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.dedo {
+  background-image: url('imagens/transferir.jpg');
+  background-size: 250px 250px;
+  height: auto;
+  border: 2px solid hsla(51, 100%, 50%, 1);
+  width: 99%;
+  height: 280px;
+  margin-top: 80px;
+  box-shadow: 0 0 10px hsla(51, 100%, 50%, 1);
+}
+
+a:hover {
+  border-radius: 5px;
+  color: rgb(220, 238, 15);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.dropdown-menu li a {
+  color: white;
+
+}
+
+.dropdown-menu {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  border-radius: 1px hsla(51, 100%, 50%, 1);
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.menu1 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 79%;
+
+}
+
+.menu {
+  margin-top: 30px;
+  background-color: white;
+  padding: 2px;
+  text-align: center;
+}
+
+
+.mover {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 10px;
+  border: 2px solid hsla(51, 100%, 50%, 1);
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  margin-top: 0px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a:hover {
+  background-color: hsla(51, 100%, 50%, 1);
+  color: black;
+  border-radius: 5px;
+
+}
+
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+#logo {
+  position: absolute;
+  top: 15px;
+  right: 85%;
+  max-width: 200px;
+  height: auto;
+}
+
+nav {
+  margin-top: 50px;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+li {
+  display: inline;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  color: black;
+  background-color: hsla(51, 100%, 50%, 1);
+}
+
+.quadro {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.quadro img {
+  overflow: hidden;
+  position: relative;
+  margin-top: 100px;
+  width: 250px;
+  height: 200px;
+  display: block;
+  border: 5px solid hsla(51, 100%, 50%, 1);
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.quadro:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.quadro p {
+  color: white;
+}
+
+div .pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#pesquisa {
+  width: 450px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid hsla(51, 100%, 50%, 1);
+}
+
+.perquisar {
+  margin-top: 60px;
+  border: 2px solid hsla(51, 100%, 50%, 1);
+  color: wheat;
+  background-color: black;
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+li a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sob {
+  position: absolute;
+  width: 700px;
+  height: 0px;
+}
+
+.sob P {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(246, 218, 58);
+}
+
+p {
+  position: absolute;
+  width: 200px;
+}
+
+#imagem {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.comprar {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  border: solid 2px white;
+  color: white;
+  border-radius: 15px;
+  font-size: 30px;
+  margin-top: 430px;
+  background-color: rgb(39, 215, 39);
+}
+
+div.comprar {
+
+  left: 170px;
+  position: absolute;
+  width: 140px;
+  height: 35px;
+}
+
+a.dindin {
+  color: green;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a.dindin:hover {
+  color: black;
+  background-color: green;
+}
